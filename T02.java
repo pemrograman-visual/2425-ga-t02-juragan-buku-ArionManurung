@@ -4,12 +4,6 @@
 import java.util.*;
 import java.lang.Math;
 
-import java.util.*;
-import java.lang.Math;
-
-import java.util.*;
-import java.lang.Math;
-
 public class T02 {
     private static Scanner input = new Scanner(System.in);
 
@@ -32,13 +26,13 @@ public class T02 {
         if (rating >= 4.7) {
             kualitas = "Best Pick";
         } else {
-            if (rating >= 4.5 && rating < 4.7) {
+            if (rating >= 4.5) {
                 kualitas = "Must Read";
             } else {
-                if (rating >= 4.0 && rating < 4.5) {
-                    kualitas = "Recommend";
+                if (rating >= 4.0) {
+                    kualitas = "Recommended";
                 } else {
-                    if (rating >= 3.0 && rating < 4.0) {
+                    if (rating >= 3.0) {
                         kualitas = "Average";
                     } else {
                         if (rating < 3.0) {

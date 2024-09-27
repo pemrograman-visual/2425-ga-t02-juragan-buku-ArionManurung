@@ -4,9 +4,10 @@
         <attribute name="name" value="T02"/>
         <attribute name="authors" value="JOICE"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 10:42:40 AM"/>
+        <attribute name="saved" value="2024-09-27 11:57:20 AM"/>
         <attribute name="created" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMDktMjc7MDk6NTg6MTIgQU07MjI5OA=="/>
         <attribute name="edited" value="Sk9JQ0U7QkVFTFpFQlVCOzIwMjQtMDktMjc7MTA6NDI6NDAgQU07MTsyMzky"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtR1JEUktTTFE7MjAyNC0wOS0yNzsxMTo1NzoyMCBBTTsxOzI4MjI="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -37,7 +38,7 @@
                         <else>
                             <if expression="rating&gt;=4.0">
                                 <then>
-                                    <assign variable="kualitas" expression="&quot;Recommend&quot;"/>
+                                    <assign variable="kualitas" expression="&quot;Recommended&quot;"/>
                                 </then>
                                 <else>
                                     <if expression="rating&gt;=3.0">
